@@ -1,18 +1,18 @@
 export const AboutMe = () => {
   return (
     <>
-      <div className="h-96 flex w-screen items-center justify-center">
+      <div className="w-full flex items-center justify-center px-4 py-8 overflow-x-hidden">
         <div
-          className="flex flex-col sm:p-0 text-center sm:text-left sm:flex-row gap-5"
+          className="flex flex-col sm:flex-row text-center sm:text-left gap-5 max-w-4xl"
           style={{ fontFamily: 'Ubuntu mono' }}
         >
           <div className="flex flex-col">
-            <div className="text-3xl">Hey! I’m Varun</div>
+            <div className="text-3xl sm:text-4xl">Hey! I’m Varun</div>
 
-            <div className="w-96">
+            <div className="w-full sm:w-96 mt-2 text-base">
               and I’m obsessed with creating products that people actually want
-              to use—not just look at once and forget. Right now, I’m probably
-              tinkering with a side project, fixing one last bug.
+              to use—not just look at once and forget. Right now,<br />
+              I’m probably tinkering with a side project, fixing one last bug.
             </div>
           </div>
 
