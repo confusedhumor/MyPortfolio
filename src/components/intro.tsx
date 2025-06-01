@@ -17,7 +17,7 @@ function Intro() {
   Developer
 </div>
 
-    <div className='mt-7 text-lg text-right sm:mr-96 col-span-12 mx-8'>
+    <div className='mt-6 text-lg text-right sm:mr-100 col-span-12 mx-8'>
   I code <i><b>so spicy,</b></i> 
   <i><b> even the <span className="text-red-600 italic">bugs</span></b></i> run away.
 </div>
